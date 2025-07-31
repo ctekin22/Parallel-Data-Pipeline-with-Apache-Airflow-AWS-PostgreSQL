@@ -25,13 +25,13 @@ This project ingests weather data from the OpenWeatherMap API and store data fro
 ## 🗂️ Project Structure
 
 ```
-├── dags/
+├── scripts/airflow/dags/
 │   └── weather_dag.py         # Main DAG with TaskGroups and logic
 ├── plugins/
 │   └── custom_operators/      # Optional: for custom logic
-├── data/
+├── datasets/
 │   └── cities.csv             # Sample CSV file in S3
-├── requirements.txt           # Python dependencies
+├── docs          
 └── README.md                  # This file
 ```
 
